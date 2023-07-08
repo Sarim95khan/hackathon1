@@ -1,4 +1,5 @@
 import { category } from './categorys';
+import { productType } from './productType';
 
 export const products = {
   name: 'product',
@@ -25,6 +26,17 @@ export const products = {
         },
       ],
     },
+    {
+      name: 'productType',
+      type: 'reference',
+      title: 'Product Type',
+      to: [
+        {
+          type: 'productType',
+        },
+      ],
+    },
+
     {
       name: 'productCategory',
       type: 'reference',

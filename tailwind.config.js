@@ -9,6 +9,11 @@ module.exports = {
     extend: {
       colors: {
         primaryWhite: '#FFECE3',
+        promCat1: '#D6D6D8',
+        promCat2: '#EFE1C7',
+        promCat3: '#D7D7D9',
+        promCat4: '#212121',
+        promText: '#474747',
       },
     },
   },

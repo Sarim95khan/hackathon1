@@ -11,7 +11,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 const Hero = () => {
   const btn = 'Start \nShopping';
   return (
-    <section className="h-screen  flex flex-col md:flex-row justify-between items-center mt-8 space-y-4 space-x-2">
+    <section className="  flex flex-col md:flex-row justify-between items-center mt-8 space-y-4 space-x-2">
       <div className="flex-1 space-y-8 pr-10">
         <button className="bg-blue-300 text-blue-700 px-2 py-1 rounded-lg">
           Sale 70 %
